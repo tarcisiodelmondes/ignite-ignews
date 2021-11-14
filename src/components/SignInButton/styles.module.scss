@@ -1,0 +1,33 @@
+.containerButton {
+  color: var(--white);
+  background-color: var(--gray-850);
+  border-radius: 3rem;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 3rem;
+  padding: 0 1.5rem;
+  font-weight: 700;
+
+  transition: filter 0.2s;
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  svg:first-child {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  svg.closeIcon {
+    margin-left: 1rem;
+  }
+}
