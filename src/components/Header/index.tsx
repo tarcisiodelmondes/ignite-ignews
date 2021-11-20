@@ -1,6 +1,9 @@
 import styles from "./styles.module.scss";
 import Image from "next/image";
+
 import { SignInButton } from "../SignInButton";
+import { useRouter } from "next/router";
+import { ActiveLink } from "../ActiveLink";
 
 export function Header() {
   return (
@@ -14,10 +17,13 @@ export function Header() {
         />
 
         <nav>
-          <a className={styles.active} href="#">
-            Home
-          </a>
-          <a href="#">Posts</a>
+          <ActiveLink activeClassName={styles.active} href="/">
+            <a>Home</a>
+          </ActiveLink>
+
+          <ActiveLink activeClassName={styles.active} href="/posts" prefetch>
+            <a>Posts</a>
+          </ActiveLink>
         </nav>
 
         <SignInButton />
