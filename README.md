@@ -25,7 +25,7 @@
 
 ## Demonstração da aplicação
 
-Acesse: <https://ignews.tarcisiodelmondes.dev>
+Acesse: <https://ignite-ignews-tarcisiodelmondes.vercel.app>
 
 ## Pré-requisitos
 
