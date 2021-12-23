@@ -15,14 +15,12 @@ export function SignInButton() {
       className={styles.containerButton}
     >
       <FaGithub color="#04D361" />
-      {session.user.name}
+      <span>{session.user.name}</span>
       <FiX color="#737380" className={styles.closeIcon} />
     </button>
   ) : (
     <button
-      onClick={() =>
-        signIn("github")
-      }
+      onClick={() => signIn("github")}
       type="button"
       className={styles.containerButton}
     >

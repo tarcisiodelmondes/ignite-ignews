@@ -37,6 +37,13 @@
     padding: 0 1rem;
     font-size: 0.875rem;
 
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 4.25rem;
+    }
+
     svg:first-child {
       margin-right: 0.5rem;
     }
