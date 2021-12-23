@@ -31,3 +31,14 @@
     margin-left: 1rem;
   }
 }
+
+@media (max-width: 720px) {
+  .containerButton {
+    padding: 0 1rem;
+    font-size: 0.875rem;
+
+    svg:first-child {
+      margin-right: 0.5rem;
+    }
+  }
+}
