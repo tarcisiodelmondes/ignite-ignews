@@ -58,3 +58,24 @@
     margin-left: auto;
   }
 }
+
+@media (max-width: 720px) {
+  .headerContent {
+    padding: 0 1rem;
+    font-size: 0.875rem;
+
+    .imageContainer {
+      max-width: 3.75rem;
+    }
+
+    nav {
+      margin-left: 1rem;
+
+      a {
+        & + a {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  }
+}
