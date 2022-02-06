@@ -5,6 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest --watch",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,7 +14,7 @@
     "@types/prismic-dom": "^2.1.1",
     "axios": "^0.24.0",
     "faunadb": "^4.4.1",
-    "next": "12.0.3",
+    "next": "12.0.7",
     "next-auth": "^3.29.0",
     "prismic-dom": "^2.2.6",
     "react": "17.0.2",
@@ -23,11 +24,17 @@
     "stripe": "^8.188.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
     "@types/axios": "^0.14.0",
     "@types/node": "^16.11.7",
     "@types/react": "^17.0.34",
+    "babel-jest": "^27.5.0",
     "eslint": "7",
     "eslint-config-next": "12.0.3",
+    "jest": "^27.5.0",
+    "jest-dom": "^4.0.0",
     "typescript": "^4.4.4"
   }
 }
