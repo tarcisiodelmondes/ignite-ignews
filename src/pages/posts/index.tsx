@@ -11,8 +11,8 @@ import { RichText } from "prismic-dom";
 interface Post {
   slug: string;
   title: string;
-  excerpt: "string";
-  updatedAt: Date;
+  excerpt: string;
+  updatedAt: string;
 }
 
 interface PostsProps {
